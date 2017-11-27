@@ -1,0 +1,25 @@
+import UIKit
+
+func calcBMI ( weight : Double, height : Double) -> Double{
+    let bmi = weight / pow(height, 2)
+    
+    if bmi > 25 {
+        print("overweight")
+    }
+    
+    else if bmi > 18.5 && bmi < 25{
+        print("normal weight")
+    }
+    else if bmi < 18.5{
+        print("underweight")
+    }
+    
+    
+    
+    return bmi
+    
+}
+
+var bmiresult = calcBMI(weight: 55, height: 1.5)
+print(bmiresult)
+
