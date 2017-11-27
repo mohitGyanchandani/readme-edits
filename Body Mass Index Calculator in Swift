@@ -20,6 +20,6 @@ func calcBMI ( weight : Double, height : Double) -> Double{
     
 }
 
-var bmiresult = calcBMI(weight: 55, height: 1.5)
+var bmiresult = calcBMI(weight: Double , height: Double)
 print(bmiresult)
 
